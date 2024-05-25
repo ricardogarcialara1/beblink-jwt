@@ -41,17 +41,4 @@ public class HttpSecurityConfig {
         return http.build();
     }
 
-    /*private Customizer<AuthorizeHttpRequestsConfigurer<HttpSecurity>.AuthorizationManagerRequestMatcherRegistry> builderRequestMatchers() {
-        return authConfig -> {
-            //Public Endpoint
-            authConfig.requestMatchers(HttpMethod.POST, "/auth/authenticate").permitAll();
-            authConfig.requestMatchers(HttpMethod.GET, "/auth/public-access").permitAll();
-            authConfig.requestMatchers("/error").permitAll()*//**//*;
-            //Private Endpoint
-            authConfig.requestMatchers(HttpMethod.GET, "/products").hasAuthority(Permission.READ_ALL_PRODUCTS.name());
-            authConfig.requestMatchers(HttpMethod.POST, "/products").hasAuthority(Permission.SAVE_ONE_PRODUCT.name());
-
-            authConfig.anyRequest().denyAll();
-        };
-    }*/
 }
