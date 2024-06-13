@@ -1,7 +1,7 @@
-package com.beblink.springsecurity.config.security.filter;
+package com.beblink.springsecurity.config.filter;
 
 import com.beblink.springsecurity.repository.UserRepository;
-import com.beblink.springsecurity.service.JwtService;
+import com.beblink.springsecurity.config.security.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

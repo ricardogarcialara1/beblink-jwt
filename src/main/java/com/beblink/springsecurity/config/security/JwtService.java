@@ -1,4 +1,4 @@
-package com.beblink.springsecurity.service;
+package com.beblink.springsecurity.config.security;
 
 import com.beblink.springsecurity.model.User;
 import io.jsonwebtoken.Claims;

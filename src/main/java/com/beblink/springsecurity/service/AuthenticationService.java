@@ -1,5 +1,6 @@
 package com.beblink.springsecurity.service;
 
+import com.beblink.springsecurity.config.security.JwtService;
 import com.beblink.springsecurity.model.User;
 import com.beblink.springsecurity.model.dto.AuthenticationRequest;
 import com.beblink.springsecurity.model.dto.AuthenticationResponse;

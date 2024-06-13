@@ -1,6 +1,6 @@
 package com.beblink.springsecurity.model;
 
-import com.beblink.springsecurity.utils.Role;
+import com.beblink.springsecurity.config.enums.Role;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

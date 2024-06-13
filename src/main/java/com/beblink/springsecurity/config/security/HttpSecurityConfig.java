@@ -1,6 +1,6 @@
 package com.beblink.springsecurity.config.security;
 
-import com.beblink.springsecurity.config.security.filter.JwtAuthenticationFilter;
+import com.beblink.springsecurity.config.filter.JwtAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationProvider;

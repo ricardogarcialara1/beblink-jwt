@@ -1,4 +1,4 @@
-package com.beblink.springsecurity.utils;
+package com.beblink.springsecurity.config.enums;
 
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.beblink.springsecurity.utils;
+package com.beblink.springsecurity.config.enums;
 
 /**
  * The enum Permission.
