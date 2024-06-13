@@ -39,14 +39,4 @@ public class AuthenticationController {
         return ResponseEntity.ok(jwtDto);
     }
 
-    /**
-     * Public access endpoint string.
-     *
-     * @return the string
-     */
-    @PreAuthorize("permitAll")
-    @GetMapping("/public-access")
-    public String publicAccessEndpoint(){
-        return "este endpoint es público";
-    }
 }
